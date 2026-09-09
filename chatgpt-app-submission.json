@@ -1,0 +1,79 @@
+{
+  "$schema": "https://developers.openai.com/apps-sdk/schemas/chatgpt-app-submission.v1.json",
+  "schema_version": 1,
+  "app_info": {
+    "display_name": "AI Icon Studio",
+    "subtitle": "生成原创图标，衔接 Icon Composer",
+    "description": "把应用想法和参考图转成有辨识度的图标。先提炼轮廓、留白、色彩与性格，用不同的视觉方向探索；名称可以只是轻微联想。\n\n参考图可直接参与图片生成，随后通过原生材质和小尺寸预览比较效果。选定后，重建干净的 SVG 或透明图层，衔接 Apple Icon Composer，交付原生文档与适合 macOS 的图标资源。\n\n先做低成本草稿，保留精确提示词、参考来源和实际费用，确认后再精修。需要本地工具及可用的生图能力；API 生图可能收费。",
+    "category": "DESIGN"
+  },
+  "tools": {},
+  "test_cases": [
+    {
+      "description": "Explore distinct icon directions",
+      "user_prompt": "Design three original icon directions for a small app that manages remote app instances. Keep the name association subtle.",
+      "file_attachment_urls": null,
+      "tools_triggered": null,
+      "expected_output": "Reads the brief and existing assets, creates distinct silhouettes with an available authorized image tool, and shows compact previews without renaming the project.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Use an authorized style reference",
+      "user_prompt": "Use my attached reference to guide an original icon, preserving its bold contrast and generous space.",
+      "file_attachment_urls": null,
+      "tools_triggered": null,
+      "expected_output": "Distinguishes style guidance from copying a mark; when supported and authorized, supplies the reference to the selected generator and records its use.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Correct connected character geometry",
+      "user_prompt": "The eyes and ears in this mascot face different directions. Fix the head pose while keeping the palette.",
+      "file_attachment_urls": null,
+      "tools_triggered": null,
+      "expected_output": "Reworks connected head geometry so eyes, ears and muzzle share a coherent pose, then checks the result at small size.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Prepare Apple app assets",
+      "user_prompt": "Prepare my selected icon for Icon Composer and a legacy macOS app.",
+      "file_attachment_urls": null,
+      "tools_triggered": null,
+      "expected_output": "Checks local platform tools, separates artwork from native validation, prepares suitable layers or clearly labels flattened artwork, and creates ICNS resources from a reviewed export. Reports unavailable native checks.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Use the optional API route safely",
+      "user_prompt": "Use my already configured OpenRouter credential to generate one low-cost icon draft.",
+      "file_attachment_urls": null,
+      "tools_triggered": null,
+      "expected_output": "Uses the authorized provider and process environment without asking for a key in chat; makes one request, preserves the prompt, saves the image and safe cost receipt, and does not automatically retry a failed request.",
+      "expected_output_url": null
+    }
+  ],
+  "negative_test_cases": [
+    {
+      "description": "Unrelated account administration",
+      "user_prompt": "Reset the password for my email account.",
+      "file_attachment_urls": null,
+      "tools_triggered": null,
+      "expected_output": "Does not invoke the icon design workflow or attempt account administration.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Unrelated data analysis",
+      "user_prompt": "Calculate my monthly expenses from a spreadsheet.",
+      "file_attachment_urls": null,
+      "tools_triggered": null,
+      "expected_output": "Does not invoke the icon design workflow; routes to an appropriate capability.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Unrelated infrastructure deployment",
+      "user_prompt": "Deploy my API server and rotate its production credentials.",
+      "file_attachment_urls": null,
+      "tools_triggered": null,
+      "expected_output": "Does not invoke the icon design workflow or perform unrelated deployments or credential changes.",
+      "expected_output_url": null
+    }
+  ]
+}
