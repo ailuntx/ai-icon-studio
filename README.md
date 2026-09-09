@@ -12,6 +12,8 @@ MiniBridge 已采用 B2：将选中的栅格轮廓重建为两个独立 SVG 图�
 
 品牌：ailuntz · https://www.ailuntz.com。公共插件版本：0.1.1。使用说明与脚本包含在插件内，无需 npm 安装。
 
+已发布到官方目录，分类为 Creativity：[安装 AI Icon Studio](https://chatgpt.com/plugins/plugins_6aa19a8879108191825af4fe2523aee3) · [下载发布包](https://github.com/ailuntx/ai-icon-studio/releases/tag/v0.1.1)。
+
 [Privacy](docs/privacy.md) · [Terms](docs/terms.md) · [Support](https://github.com/ailuntx/ai-icon-studio/issues)
 
 开发验证：`node --test tests/generation.test.mjs`，以及在安装 Pillow 的 Python 环境中运行 `python -m unittest discover -s tests -p 'test_*.py'`。
