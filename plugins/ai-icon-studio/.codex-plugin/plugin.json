@@ -1,6 +1,6 @@
 {
   "name": "ai-icon-studio",
-  "version": "0.1.1+codex.20260909181515",
+  "version": "0.1.2+codex.20260909184426",
   "description": "Generate original app icons and prepare artwork for Apple Icon Composer.",
   "author": {
     "name": "ailuntz",
@@ -19,7 +19,7 @@
       "把选中的图标准备成 Icon Composer 素材，并验证原生文件。",
       "检查这个图标的轮廓、透明边缘和深浅外观，提出针对性改进。"
     ],
-    "brandColor": "#0839eb",
+    "brandColor": "#ff2874",
     "websiteURL": "https://www.ailuntz.com",
     "logo": "./assets/logo.png",
     "composerIcon": "./assets/icon.png",
