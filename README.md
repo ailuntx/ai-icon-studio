@@ -10,7 +10,7 @@
 
 MiniBridge 已采用 B2：将选中的栅格轮廓重建为两个独立 SVG 图层，完成 Icon Composer 原生 Default/Dark 导出和 ICNS 集成。MiniDock 采用 N2 Little Lookout；经过眼睛与耳朵的整体姿态修正，已生成原生 Default 预览并集成本地 App。MiniDock 使用整张栅格图层与手动 Dock 留白，不声称具备独立矢量图层或完整 Dark 适配。
 
-品牌：ailuntz · https://www.ailuntz.com。公共插件版本：0.1.0。使用说明与脚本包含在插件内，无需 npm 安装。
+品牌：ailuntz · https://www.ailuntz.com。公共插件版本：0.1.1。使用说明与脚本包含在插件内，无需 npm 安装。
 
 [Privacy](docs/privacy.md) · [Terms](docs/terms.md) · [Support](https://github.com/ailuntx/ai-icon-studio/issues)
 
