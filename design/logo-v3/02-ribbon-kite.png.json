@@ -1,0 +1,7 @@
+{
+  "ok": true,
+  "model": "openai/gpt-image-2",
+  "quality": "low",
+  "cost_usd": 0.00683,
+  "reference_count": 0
+}
